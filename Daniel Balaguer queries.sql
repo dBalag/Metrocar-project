@@ -6,7 +6,7 @@ Sign-up, Ride Request, Ride Accept, Ride Complete, Payment & Review), x each of 
 download_date.
 Its purpose is to get insights from the step funnel at a deeper level (platforms, age_ranges, download_date).
 I used this dataset in Tableau to make viz and being able to answer the business questions.
-
+Delivered 25939 records, screenshot attached. 
 */
 
 WITH 
@@ -138,6 +138,7 @@ Query 2: RIDES REQUESTED X HOUR
 This query summarizes all the rides has been requested in each hour of the day. 
 Its purpose is to summarize x each hour how many rides has been requested, with that then being able to use it in Tableau and 
 viz it to answer the business question related.
+Delivered 360 records, screenshot attached.
 */
 
 WITH rides_requested AS     ( SELECT EXTRACT(HOUR FROM rr.request_ts) as request_hour, ad.platform as platform, s.age_range as age_range,
