@@ -5,14 +5,8 @@ This query summarizes count of users & count of rides x each of the 7 step funne
 Sign-up, Ride Request, Ride Accept, Ride Complete, Payment & Review), x each of the 3 platforms, x 5 age_ranges & x each 
 download_date.
 Its purpose is to get insights from the step funnel at a deeper level (platforms, age_ranges, download_date).
-I used this dataset in Tableau to make viz and being able to answer these business questions:
+I used this dataset in Tableau to make viz and being able to answer the business questions.
 
-1. What steps of the funnel should we research and improve? Are there any specific drop-off points preventing users from 
-completing their first ride?
-2. Metrocar currently supports 3 different platforms: ios, android, and web. To recommend where to focus our marketing budget 
-for the upcoming year, what insights can we make based on the platform?
-3. What age groups perform best at each stage of our funnel? Which age group(s) likely contain our target customers?
-4. What part of our funnel has the lowest conversion rate? What can we do to improve this part of the funnel?
 */
 
 WITH 
@@ -143,9 +137,7 @@ Query 2: RIDES REQUESTED X HOUR
 
 This query summarizes all the rides has been requested in each hour of the day. 
 Its purpose is to summarize x each hour how many rides has been requested, with that then being able to use it in Tableau and 
-viz it to answer the business question: 
-1. Surge pricing is the practice of increasing the price of goods or services when there is the greatest demand for them. 
-If we want to adopt a price-surging strategy, what does the distribution of ride requests look like throughout the day?.
+viz it to answer the business question related.
 */
 
 WITH rides_requested AS     ( SELECT EXTRACT(HOUR FROM rr.request_ts) as request_hour, ad.platform as platform, s.age_range as age_range,
