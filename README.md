@@ -1,8 +1,6 @@
 # Metrocar-project
 Metrocar is a ride-sharing company who is seeking to indentify user drop-offs across the stages and plans to implement dynamic pricing to boost revenue during high demand.
 
-
-
 -7 FUNNEL STEP QUERY-
 
 The 1st. query summarizes count of users & count of rides x each of the step funnel (the stages that the user does: Download,
@@ -17,8 +15,6 @@ completing their first ride?
 for the upcoming year, what insights can we make based on the platform?
 3. What age groups perform best at each stage of our funnel? Which age group(s) likely contain our target customers?
 4. What part of our funnel has the lowest conversion rate? What can we do to improve this part of the funnel?
-
-
 
 -RIDES REQUESTED X HOUR QUERY-
 
