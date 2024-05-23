@@ -1,5 +1,5 @@
 # Metrocar-project
-Metrocar is a ride-sharing company who is seeking to indentify user drop-offs across the stages and plans to implement dynamic pricing to boost revenue during high demand.
+Metrocar is a fictional ride-sharing company who is seeking to indentify user drop-offs across the stages and plans to implement dynamic pricing to boost revenue during high demand.
 
 -7 FUNNEL STEP QUERY-
 
